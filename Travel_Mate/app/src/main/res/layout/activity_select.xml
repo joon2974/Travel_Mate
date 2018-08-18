@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <TextView
+        android:id="@+id/selectText"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="로그인"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kB"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:drawablePadding="-30dp"
+        android:drawableStart="@drawable/kakao"
+        android:paddingLeft="15dp"
+        android:text="kakao로 로그인하기"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectText" />
+
+    <Button
+        android:id="@+id/gB"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawablePadding="-30dp"
+        android:drawableStart="@drawable/google"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:text="google로 로그인하기"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kB" />
+
+    <Button
+        android:id="@+id/fB"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawablePadding="-30dp"
+        android:drawableStart="@drawable/facebook"
+        android:paddingLeft="15dp"
+        android:text="facebook으로 로그인하기"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gB" />
+
+    <Button
+        android:id="@+id/nB"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:onClick="onButton2Clicked"
+        android:text="여행친구로 로그인하기"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fB" />
+
+
+</android.support.constraint.ConstraintLayout>
