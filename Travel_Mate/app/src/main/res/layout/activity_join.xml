@@ -117,5 +117,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sex1" />
 
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/join" />
+
 
 </android.support.constraint.ConstraintLayout>
